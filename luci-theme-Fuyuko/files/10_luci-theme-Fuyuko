@@ -1,7 +1,0 @@
-#!/bin/sh
-uci batch <<-EOF
-	set luci.themes.Fuyuko=/luci-static/Fuyuko
-	set luci.main.mediaurlbase=/luci-static/Fuyuko
-	commit luci
-EOF
-exit 0
